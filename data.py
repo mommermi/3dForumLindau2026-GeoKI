@@ -1,13 +1,9 @@
 # data module, michael.mommert@hft-stuttgart.de, 2026, MIT-License
 
 import matplotlib as mpl
-import pandas as pd
-from torch.utils.data import Dataset
+import matplotlib.pyplot as plt
 import rasterio as rio
 import numpy as np
-import torch
-import matplotlib.pyplot as plt
-
 
 # define ESA WorldCover colormap
 COLOR_CATEGORIES = [
